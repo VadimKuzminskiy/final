@@ -1,0 +1,82 @@
+.footer__adres {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 2px solid  #E6E6F0;
+
+    & span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #323264;
+    }
+
+    & a {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #24A3FF;
+    }
+}
+
+.footer__adres-llc {
+    & span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+        color: #B3B3BA;
+    }
+}
+
+.footer__contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.footer__tel {
+    font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: right;
+color: #46466E;
+}
+
+.footer__email {
+    font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #24A3FF;
+}
+
+.footer__adres-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__block {
+    @media (max-width: 576px) {
+        display: none;
+    }
+}
+
+.footer__mob {
+    @media (min-width: 577px) {
+        display: none;
+    }
+
+    @media (max-width: 576px) {
+        // display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 30px;
+    }
+}

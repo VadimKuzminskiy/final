@@ -1,0 +1,30 @@
+.service__span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24A3FF;
+}
+
+.service__h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    // text-fill-color: transparent;
+    margin: 10px 0 60px;
+}
+
+.services__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

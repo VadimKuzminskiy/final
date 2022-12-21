@@ -1,0 +1,49 @@
+h1 {
+    font-weight: 700;
+font-size: 38px;
+line-height: 46px;
+
+/* Gradient / Red Text */
+
+background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+// text-fill-color: transparent;
+}
+
+h4 {
+    font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #323264;
+margin-bottom: -15px;
+}
+
+.content {
+    display: flex;
+    gap: 60px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.content__text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content__p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #B3B3BA;
+}
+
+.content__link {
+    line-height: 20px;
+    color: #24A3FF;
+}
