@@ -15,16 +15,16 @@
     font-style: normal;
     font-weight: 700;
 
-    & span {
-    // font-family: 'Montserrat';
-    // font-style: normal;
-    // font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #24A3FF;
-    }
+    // & span {
+    // // font-family: 'Montserrat';
+    // // font-style: normal;
+    // // font-weight: 700;
+    // font-size: 14px;
+    // line-height: 17px;
+    // letter-spacing: 1px;
+    // text-transform: uppercase;
+    // color: #24A3FF;
+    // }
 
     & h3 {
         // font-family: 'Montserrat';
@@ -62,7 +62,7 @@
 }
 
 .swiper-slide {
-    text-align: center;
+    // text-align: center;
     font-size: 18px;
     background: #fff;
 
@@ -87,4 +87,3 @@
     // height: 100%;
     object-fit: cover;
 }
-

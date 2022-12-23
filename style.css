@@ -66,15 +66,12 @@ body {
   align-items: flex-start;
   padding: 50px 60px 0px;
   position: absolute;
+  width: 100%;
 }
 @media (max-width: 576px) {
   .header__block {
     display: none;
   }
-}
-
-.header__logo {
-  margin-right: 600px;
 }
 
 .header__contact {
@@ -241,6 +238,7 @@ h1 {
   text-align: center;
   color: #323264;
   margin-bottom: 30px;
+  margin-top: 60px;
 }
 
 .clients {
@@ -331,13 +329,6 @@ h1 {
   font-style: normal;
   font-weight: 700;
 }
-.comand__content span {
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #24A3FF;
-}
 .comand__content h3 {
   font-size: 37px;
   line-height: 46px;
@@ -364,7 +355,6 @@ h1 {
 }
 
 .swiper-slide {
-  text-align: center;
   font-size: 18px;
   background: #fff;
   /* Center slide text vertically */
@@ -437,6 +427,9 @@ h1 {
   max-width: 420px;
   background: #FFFFFF;
   border-radius: 8px;
+}
+.publication__card img {
+  align-self: stretch;
 }
 
 .publication__card-content {

@@ -24,6 +24,10 @@
     max-width: 420px;
     background: #FFFFFF;
     border-radius: 8px;
+
+    & img {
+        align-self: stretch;
+    }
 }
 
 .publication__card-content {
